@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    /* background:linear-gradient(to bottom, #12a00b,#549d0f,#93d38c); */
+    background-image: url('https://www.thedigitalspeaker.com/content/images/2023/02/Sustainable-AI-future.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    width: 350px;
+    height: 500px;
+    /* background: rgb(30, 202, 101); */
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 20px 50px black;
+}
+/* Custom CSS for green gradient background */
+.green-gradient {
+    background-image: linear-gradient(to bottom, #00ff00, #00cc00);
+    background-color: #00cc00;
+}
+
+/* Custom CSS for leaf icon */
+.leaf-icon::before {
+    content: '\f06c'; /* Unicode for a leaf icon, you can use a different leaf icon if desired */
+    font-family: FontAwesome; /* Use FontAwesome or any other icon font */
+    color: #228B22; /* Green color for the leaf icon */
+    font-size: 24px; /* Adjust the size as needed */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.custom-popup {
+    background-color: #23db0e; /* Red background color */
+    border-radius: 20px; /* Border radius */
+}
+.bt input
+{
+    width: 200px;
+    height: 6%;
+    border-color: #ffff;
+    font-weight: bolder;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#chk{
+    display: none;
+}
+.signup{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+label{
+    color:#fff;
+    font-size :2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+input{
+    width: 60%;
+    height: 20px;
+    background: #e0dede;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+button{
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #046813;
+    font-size: 1em;
+    font-weight: normal;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+
+}
+button.hover{
+    background: #6d4468;
+}
+.login{
+    height: 460px;
+    /* background:linear-gradient(to bottom, #0db458,#07c958,#07df2b); */
+    /* background-image: rgba(24,72,46,255); */
+    background-color: rgba(24,72,46,255);
+    /* background-color: transparent; */
+    border-radius: 60% / 10%;
+    transform: translateY(-180px);
+    transition: .8s ease-in-out;
+
+}
+.login label{
+    color: #f2f0f7;
+    transform: scale(.6);
+}
+#chk:checked ~.login{
+    transform: translateY(-500px);
+
+}
+#chk:checked  ~.login label{
+    transform: scale(1);
+}
+#chk:checked  ~.signup label{
+    transform: scale(.6);
+}

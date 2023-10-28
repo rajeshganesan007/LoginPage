@@ -1,0 +1,78 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* Add your CSS styles here */
+  .profile_body
+  {
+    background-image: url('https://img.pikbest.com/origin/09/17/55/18QpIkbEsTp6S.png!sw800');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .profile1
+  {
+    display: relative;
+    margin-top: 100px;
+
+  }
+  .profile_image {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(9, 127, 56, 0.1);
+    display: flex;
+    text-align: center;
+    margin: 0%;
+    position: relative;
+    background-color: #baceb6;
+  }
+  .profile_image p{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  #profile-im {
+    width: 100px;
+    border-radius: 50%;
+  }
+  .update_form {
+    margin-top: 20px;
+    display: flex;
+  }
+  .part1 {
+    flex: 1;
+    margin-right: 10px;
+  }
+  .form-label {
+    font-weight: bold;
+  }
+  .profile1 {
+    background-color: rgba(239, 239, 239, 0.5); /* Adjust the alpha (transparency) value as needed */
+    width: 1000px;
+    justify-content: center;
+    display: relative; /* It should be 'relative' */
+    padding: 20px;
+    margin-left: 250px;
+    border-radius: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .Nav_all
+  {
+    margin-left: 700px;
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+
+  }
+  #navibar button
+  {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+   
+
+  }
+  #navibar button:hover
+  {
+    background-color: #abe2a2;
+
+    
+  }
